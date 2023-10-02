@@ -40,7 +40,7 @@ public class Hooks {
 		File sourcePath= 	((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		byte[] fileContent = FileUtils.readFileToByteArray(sourcePath);
 		scenario.attach(fileContent, "image/png", "image");
-		
+		//
 		}
 		
 	}

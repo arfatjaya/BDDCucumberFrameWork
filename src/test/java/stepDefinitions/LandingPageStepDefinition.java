@@ -32,7 +32,7 @@ public class LandingPageStepDefinition {
 @Given("User is on GreenCart landing page")
 public void user_is_on_green_cart_landing_page() throws InterruptedException 
 { 
-	Assert.assertTrue(landingPage.getTitleLandingPage().contains("GreenKart"));
+	Assert.assertTrue(landingPage.getTitleLandingPage().contains("GreenKart"));	
 }
 @When("^User search with short name (.+) and extracting actual name of product$")
 public void user_search_with_short_name_and_extracting_actual_name_of_product(String ShortName) throws InterruptedException {
